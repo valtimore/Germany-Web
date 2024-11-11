@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  overflow-x: hidden;
+
+  font-size: 18px;
+  @media screen and (max-width: 1276px){
+    font-size: 15px;
+}
+  @media screen and (max-width: 1200px){
+      font-size: 14px;
+  }
+  @media screen and (max-width: 1005px){
+      font-size: 12px;
+  }
+  @media screen and (max-width: 901px){
+      font-size: 10px;
+  }
+  @media screen and (max-width: 760px){
+      font-size: 9px;
+  }
+}
