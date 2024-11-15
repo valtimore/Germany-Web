@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    margin-bottom: 1em;
 }
 
 .header-nav{
@@ -16,34 +16,33 @@
 .header-ul{
     display: flex;
     justify-content: start;
-    gap: 4em;
+    gap: 5em;
 }
 
 .header-a{
     text-decoration: none;
-    color: black;
-    font-size: .7em;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-size: .8em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
     transition: ease .5s;
 }
 
 .header-a:hover{
-    color: rgb(209, 0, 0);
-    letter-spacing: 2.5px;
+    color: #CC0E2E;
+    letter-spacing: 3px;
     transition: ease .5s;
 }
 
 .header-p{
-    color:rgb(212, 1, 1);
-    font-size: .75em;
+    color:#CC0E2E;
+    font-size: .7em;
     text-transform: capitalize;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 00;
 }
 
 .header-img{
-    width: 10em;
-    margin-left: 15px;
+    width: 11em;
+    margin-left: 25px;
 }

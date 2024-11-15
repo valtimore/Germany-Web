@@ -1,36 +1,79 @@
 .mainContent{
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    padding: 1em;
+    gap: 2em;
+}
+
+.mainContent-bodySection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
 }
 
 .mainContent-bodySection-cover{
-    position: absolute;
-    background-image: url('../../../public/icons/students.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 97%;
+    height: 54vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/gym-stats-e3823.appspot.com/o/univalleGermany%2Funivallevilla2.png?alt=media&token=a8bcbd16-264e-4760-8045-b5ea5139df93');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.mainContent-bodySection-cover-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 35%;
+    margin-right: 1.5em;
+}
+
+.mainContent-bodySection-cover-text > h1{
+    color: #ffffff;
+    font-size: 2.6em;
+    font-weight: 900;
+}
+
+.mainContent-bodySection-cover-text > p{
+    color: #ffffff;
+    text-align: end;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.mainContent-bodySection-cover-image{
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent-bodySection-cover-text > img{
     width: 100%;
-    height: 50vh;
+}
+
+/* Prueba */
+
+.mainContent-aboutUs{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 2em;
 }
 
-.mainContent-bodySection-cover::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad y color */
-    z-index: 1;
+.test{
+    display: flex;
+    gap:3em;
 }
 
-.mainContent-bodySection-cover-h1{
-    color: #fff;
-    text-align: center;
-    font-size: 3em;
-    z-index: 2;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.795);
+div > div {
+    background-color: rgb(179, 179, 179);
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
 }
