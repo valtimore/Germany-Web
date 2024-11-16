@@ -3,57 +3,58 @@
     flex-direction: column;
     background-color: #ffffff;
     padding: 1em;
+    margin-top: 4em;
     gap: 2em;
 }
 
-.mainContent-bodySection{
+.mainContent-coverSection{
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 3em;
 }
 
-.mainContent-bodySection-cover{
-    width: 97%;
-    height: 54vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1em;
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/gym-stats-e3823.appspot.com/o/univalleGermany%2Funivallevilla2.png?alt=media&token=a8bcbd16-264e-4760-8045-b5ea5139df93');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-
-.mainContent-bodySection-cover-text{
+.mainContent-infoSection{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    width: 35%;
-    margin-right: 1.5em;
+    padding: 2em;
 }
 
-.mainContent-bodySection-cover-text > h1{
-    color: #ffffff;
-    font-size: 2.6em;
-    font-weight: 900;
+.mainContent-infoSection-div-div{
+    background-color: #CC0E2E;
+    padding: 1em;
+    border-top-right-radius: 30%;
 }
 
-.mainContent-bodySection-cover-text > p{
-    color: #ffffff;
-    text-align: end;
-    font-size: 1em;
-    font-weight: 300;
+.mainContent-infoSection-h2{
+    text-align: center;
+    font-size: 2.5em;
+    background: linear-gradient(10deg, #ffdfe4, #eb5f76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2em;
+    text-align: start;
 }
 
-.mainContent-bodySection-cover-image{
+.mainContent-infoSection-h2 > span{
+    font-size: 2em;
+}
+
+.mainContent-infoSection-div{
     display: flex;
-    justify-content: center;
+    gap: 4em;
 }
 
-.mainContent-bodySection-cover-text > img{
-    width: 100%;
+.mainContent-infoSection-div-p{
+    text-align: justify;
+    font-size: 1.2em;
+    color: #161212;
+    line-height: 1.6em;
+}
+
+.mainContent-infoSection-div-p > span{
+    font-weight: 700;
+    color: #CC0E2E;
 }
 
 /* Prueba */
@@ -66,14 +67,50 @@
     gap: 2em;
 }
 
+.test > div {
+    background-color: rgb(179, 179, 179);
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+}
+
 .test{
     display: flex;
     gap:3em;
 }
 
-div > div {
-    background-color: rgb(179, 179, 179);
-    width: 10em;
-    height: 10em;
-    border-radius: 100%;
+@media (max-width: 450px) {
+    .mainContent-infoSection{
+        padding: 1em;
+    }
+
+    .mainContent-infoSection-div{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .mainContent-infoSection-div-div{
+        background-color: transparent;
+    }
+    
+    .mainContent-infoSection-h2{
+        font-size: 2.5em;
+        background: linear-gradient(10deg, #910a1f, #eb5f76);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    
+    .mainContent-infoSection-h2 > span{
+        font-size: 1em;
+    }
+    
+    .mainContent-infoSection-div-p{
+        text-align: justify;
+        font-size: 1.2em;
+        color: #161212;
+        line-height: 1.6em;
+    }
+    
 }

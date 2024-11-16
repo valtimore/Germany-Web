@@ -1,0 +1,70 @@
+.cover-body{
+    width: 97%;
+    height: 54vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/gym-stats-e3823.appspot.com/o/univalleGermany%2Funivallevilla2.png?alt=media&token=a8bcbd16-264e-4760-8045-b5ea5139df93');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.cover-body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 35%;
+    margin-right: 1.5em;
+}
+
+.cover-body-content > h1{
+    color: #ffffff;
+    font-size: 2.6em;
+    font-weight: 900;
+}
+
+.cover-body-content > p{
+    color: #ffffff;
+    text-align: end;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .cover-body{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5em 2em;
+        background-color: #CC0E2E;
+        background-image: none;
+        border-radius: 5%;
+    }
+    
+    .cover-body-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .cover-body-content > h1{
+        color: #ffffff;
+        font-size: 2.6em;
+        font-weight: 900;
+    }
+    
+    .cover-body-content > p{
+        color: #ffffff;
+        text-align: justify;
+        font-size: 1em;
+        font-weight: 300;
+    }
+}
