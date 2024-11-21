@@ -1,5 +1,7 @@
 import Header from '../components/header/Header.jsx'
 import Cover from '../components/cover/Cover.jsx'
+import AboutUs from '../components/aboutus/AboutUs.jsx'
+import Gallery from '../components/gallery/Gallery.jsx'
 import './principalpage.css'
 
 export default function PrincipalPage() {
@@ -28,24 +30,14 @@ export default function PrincipalPage() {
 
             <section className='mainContent-aboutUs'>
                 <h2 id='aboutus'>About Us</h2>
-                <div className='test'>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+                < AboutUs />
                 <p> La idea es incluir una breve descripción de cada uno, junto con
                         cualidades que consideremos importantes.
                 </p>
             </section>
-            <section className='mainContent-aboutUs'>
+            <section className='mainContent-activities'>
                 <h2 id='activities'>Activities</h2>
-                <div className='test'>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+                <Gallery />
                 <p> Aquí habrá una galería con las fotos de cada actividad que se realice
                     ya sea con fines de generar fondos o cosas culturales.
                 </p>

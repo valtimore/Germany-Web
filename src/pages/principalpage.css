@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    padding: 1em;
     margin-top: 4em;
     gap: 2em;
 }
@@ -60,6 +59,16 @@
 /* Prueba */
 
 .mainContent-aboutUs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.mainContent-activities{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
